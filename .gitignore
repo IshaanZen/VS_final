@@ -9,4 +9,8 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vercel
+<<<<<<< HEAD
 .npmrc
+=======
+.npmrc
+>>>>>>> 229f02c78c8d4dcda54a4fddef5ee52e60f3d904
