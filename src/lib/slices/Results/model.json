@@ -1,0 +1,49 @@
+{
+  "id": "results",
+  "type": "SharedSlice",
+  "name": "Results",
+  "description": "Results",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "emotion": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Emotion",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        }
+      },
+      "items": {
+        "emo_img": {
+          "type": "Image",
+          "config": {
+            "label": "emo_img",
+            "constraint": {
+              "width": 200,
+              "height": 200
+            },
+            "thumbnails": []
+          }
+        },
+        "emot_name": {
+          "type": "StructuredText",
+          "config": {
+            "label": "emot_name",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading3"
+          }
+        }
+      }
+    }
+  ]
+}
