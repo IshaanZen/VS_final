@@ -138,8 +138,9 @@
 						<audio controls src={audioSrc} />
 			
 						
-							<button class="btn m-4 p-4 px-8 border-2 rounded-full max-w-3xl text-balance text-black bg-yellow-400 font-medium scale-1 hover:scale-[1.15] transition duration-300 ease-in-out "
-							disabled= {!audioSrc||thinking}>
+							<a href="/predicted-emotion" class="btn m-4 p-4 px-8 border-2 rounded-full max-w-3xl text-balance text-black bg-yellow-400 font-medium scale-1 hover:scale-[1.15] transition duration-300 ease-in-out ">
+								<!-- disabled= {!audioSrc||thinking} -->
+								
 							
 							{#if thinking}
 							thinking .....
@@ -147,7 +148,7 @@
 							{:else} Analyse	
 							{/if}
 							
-							</button>
+							</a>
 
 					
 					{/if}

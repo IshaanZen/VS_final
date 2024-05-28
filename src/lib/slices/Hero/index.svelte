@@ -52,7 +52,7 @@
 </script>
 
 <Bounded data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
-	<div class="text-container relative z-[100] mt-6 text-center">
+	<div class="text-container relative z-[100] text-center">
 		{#if slice.primary.heading}
 			<h1
 				class=" Hero__Heading mx-auto max-w-7xl text-balance text-5xl text-white font-medium opacity-0 md:text-6xl"
