@@ -64,7 +64,6 @@
 })
 
 
-
 	$: getStatus = ()=> mediaRecorder?.state;
 
 	function Record(){
